@@ -1,4 +1,14 @@
-function Header(){
+class HeaderBar extends React.Component{
+  render(){
+    return(
+      <div className="header-bar">
+        <h1>This is my header bar</h1>
+      </div>
+    )
+  }
+}
+
+/*function Header(){
   return(
     <header>
       <h1>
@@ -10,4 +20,4 @@ function Header(){
 }
 
 
-export default Header;
+export default Header; */
